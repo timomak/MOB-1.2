@@ -47,7 +47,6 @@ class ViewController: UIViewController {
         nameInfo.font = UIFont(name: "Arial", size: 20)
         blueView.addSubview(nameInfo)
         nameInfo.anchor(top: myName.topAnchor, leading: blueView.leadingAnchor, bottom: nil, trailing: nil, padding: .init(top: myName.bounds.height/2, left: 10, bottom: 0, right: 0), size: .init(width: blueView.bounds.width, height: blueView.bounds.height))
-        
     }
     
     
