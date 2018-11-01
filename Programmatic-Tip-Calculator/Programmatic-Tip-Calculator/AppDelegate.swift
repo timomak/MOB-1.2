@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  basicProgrammaticLayout
+//  Programmatic-Tip-Calculator
 //
-//  Created by timofey makhlay on 10/29/18.
+//  Created by timofey makhlay on 11/1/18.
 //  Copyright © 2018 Timofey Makhlay. All rights reserved.
 //
 
@@ -15,16 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        
-        window = UIWindow()
-        window?.makeKeyAndVisible()
-        
-        let layout = UICollectionViewFlowLayout()
-        let swipingController = SwipingController(collectionViewLayout: layout)
-
-        window?.rootViewController = swipingController
-
-
+        // Override point for customization after application launch.
         return true
     }
 

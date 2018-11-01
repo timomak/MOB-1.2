@@ -7,27 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F33250362187A6FA00132C55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33250352187A6FA00132C55 /* AppDelegate.swift */; };
-		F33250382187A6FA00132C55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33250372187A6FA00132C55 /* ViewController.swift */; };
-		F332503B2187A6FA00132C55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F33250392187A6FA00132C55 /* Main.storyboard */; };
-		F332503D2187A6FB00132C55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F332503C2187A6FB00132C55 /* Assets.xcassets */; };
-		F33250402187A6FB00132C55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F332503E2187A6FB00132C55 /* LaunchScreen.storyboard */; };
-		F35F2332218A5F1600FDC473 /* SwipingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F2331218A5F1600FDC473 /* SwipingController.swift */; };
+		F3192C8A218B8B9200AA0C56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3192C89218B8B9200AA0C56 /* AppDelegate.swift */; };
+		F3192C8C218B8B9200AA0C56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3192C8B218B8B9200AA0C56 /* ViewController.swift */; };
+		F3192C8F218B8B9200AA0C56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3192C8D218B8B9200AA0C56 /* Main.storyboard */; };
+		F3192C91218B8B9300AA0C56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3192C90218B8B9300AA0C56 /* Assets.xcassets */; };
+		F3192C94218B8B9300AA0C56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3192C92218B8B9300AA0C56 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F33250322187A6FA00132C55 /* basicProgrammaticLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = basicProgrammaticLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F33250352187A6FA00132C55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F33250372187A6FA00132C55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F332503A2187A6FA00132C55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F332503C2187A6FB00132C55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F332503F2187A6FB00132C55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F33250412187A6FB00132C55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F35F2331218A5F1600FDC473 /* SwipingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipingController.swift; sourceTree = "<group>"; };
+		F3192C86218B8B9200AA0C56 /* Programmatic-Tip-Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Programmatic-Tip-Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3192C89218B8B9200AA0C56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3192C8B218B8B9200AA0C56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3192C8E218B8B9200AA0C56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3192C90218B8B9300AA0C56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3192C93218B8B9300AA0C56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3192C95218B8B9300AA0C56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F332502F2187A6FA00132C55 /* Frameworks */ = {
+		F3192C83218B8B9200AA0C56 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +35,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F33250292187A6FA00132C55 = {
+		F3192C7D218B8B9200AA0C56 = {
 			isa = PBXGroup;
 			children = (
-				F33250342187A6FA00132C55 /* basicProgrammaticLayout */,
-				F33250332187A6FA00132C55 /* Products */,
+				F3192C88218B8B9200AA0C56 /* Programmatic-Tip-Calculator */,
+				F3192C87218B8B9200AA0C56 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F33250332187A6FA00132C55 /* Products */ = {
+		F3192C87218B8B9200AA0C56 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F33250322187A6FA00132C55 /* basicProgrammaticLayout.app */,
+				F3192C86218B8B9200AA0C56 /* Programmatic-Tip-Calculator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F33250342187A6FA00132C55 /* basicProgrammaticLayout */ = {
+		F3192C88218B8B9200AA0C56 /* Programmatic-Tip-Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				F33250352187A6FA00132C55 /* AppDelegate.swift */,
-				F33250372187A6FA00132C55 /* ViewController.swift */,
-				F35F2331218A5F1600FDC473 /* SwipingController.swift */,
-				F33250392187A6FA00132C55 /* Main.storyboard */,
-				F332503C2187A6FB00132C55 /* Assets.xcassets */,
-				F332503E2187A6FB00132C55 /* LaunchScreen.storyboard */,
-				F33250412187A6FB00132C55 /* Info.plist */,
+				F3192C89218B8B9200AA0C56 /* AppDelegate.swift */,
+				F3192C8B218B8B9200AA0C56 /* ViewController.swift */,
+				F3192C8D218B8B9200AA0C56 /* Main.storyboard */,
+				F3192C90218B8B9300AA0C56 /* Assets.xcassets */,
+				F3192C92218B8B9300AA0C56 /* LaunchScreen.storyboard */,
+				F3192C95218B8B9300AA0C56 /* Info.plist */,
 			);
-			path = basicProgrammaticLayout;
+			path = "Programmatic-Tip-Calculator";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F33250312187A6FA00132C55 /* basicProgrammaticLayout */ = {
+		F3192C85218B8B9200AA0C56 /* Programmatic-Tip-Calculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F33250442187A6FB00132C55 /* Build configuration list for PBXNativeTarget "basicProgrammaticLayout" */;
+			buildConfigurationList = F3192C98218B8B9300AA0C56 /* Build configuration list for PBXNativeTarget "Programmatic-Tip-Calculator" */;
 			buildPhases = (
-				F332502E2187A6FA00132C55 /* Sources */,
-				F332502F2187A6FA00132C55 /* Frameworks */,
-				F33250302187A6FA00132C55 /* Resources */,
+				F3192C82218B8B9200AA0C56 /* Sources */,
+				F3192C83218B8B9200AA0C56 /* Frameworks */,
+				F3192C84218B8B9200AA0C56 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = basicProgrammaticLayout;
-			productName = basicProgrammaticLayout;
-			productReference = F33250322187A6FA00132C55 /* basicProgrammaticLayout.app */;
+			name = "Programmatic-Tip-Calculator";
+			productName = "Programmatic-Tip-Calculator";
+			productReference = F3192C86218B8B9200AA0C56 /* Programmatic-Tip-Calculator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F332502A2187A6FA00132C55 /* Project object */ = {
+		F3192C7E218B8B9200AA0C56 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Timofey Makhlay";
 				TargetAttributes = {
-					F33250312187A6FA00132C55 = {
+					F3192C85218B8B9200AA0C56 = {
 						CreatedOnToolsVersion = 10.0;
 					};
 				};
 			};
-			buildConfigurationList = F332502D2187A6FA00132C55 /* Build configuration list for PBXProject "basicProgrammaticLayout" */;
+			buildConfigurationList = F3192C81218B8B9200AA0C56 /* Build configuration list for PBXProject "Programmatic-Tip-Calculator" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +107,54 @@
 				en,
 				Base,
 			);
-			mainGroup = F33250292187A6FA00132C55;
-			productRefGroup = F33250332187A6FA00132C55 /* Products */;
+			mainGroup = F3192C7D218B8B9200AA0C56;
+			productRefGroup = F3192C87218B8B9200AA0C56 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F33250312187A6FA00132C55 /* basicProgrammaticLayout */,
+				F3192C85218B8B9200AA0C56 /* Programmatic-Tip-Calculator */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F33250302187A6FA00132C55 /* Resources */ = {
+		F3192C84218B8B9200AA0C56 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F33250402187A6FB00132C55 /* LaunchScreen.storyboard in Resources */,
-				F332503D2187A6FB00132C55 /* Assets.xcassets in Resources */,
-				F332503B2187A6FA00132C55 /* Main.storyboard in Resources */,
+				F3192C94218B8B9300AA0C56 /* LaunchScreen.storyboard in Resources */,
+				F3192C91218B8B9300AA0C56 /* Assets.xcassets in Resources */,
+				F3192C8F218B8B9200AA0C56 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F332502E2187A6FA00132C55 /* Sources */ = {
+		F3192C82218B8B9200AA0C56 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F33250382187A6FA00132C55 /* ViewController.swift in Sources */,
-				F33250362187A6FA00132C55 /* AppDelegate.swift in Sources */,
-				F35F2332218A5F1600FDC473 /* SwipingController.swift in Sources */,
+				F3192C8C218B8B9200AA0C56 /* ViewController.swift in Sources */,
+				F3192C8A218B8B9200AA0C56 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F33250392187A6FA00132C55 /* Main.storyboard */ = {
+		F3192C8D218B8B9200AA0C56 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F332503A2187A6FA00132C55 /* Base */,
+				F3192C8E218B8B9200AA0C56 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		F332503E2187A6FB00132C55 /* LaunchScreen.storyboard */ = {
+		F3192C92218B8B9300AA0C56 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F332503F2187A6FB00132C55 /* Base */,
+				F3192C93218B8B9300AA0C56 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +162,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		F33250422187A6FB00132C55 /* Debug */ = {
+		F3192C96218B8B9300AA0C56 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -227,7 +223,7 @@
 			};
 			name = Debug;
 		};
-		F33250432187A6FB00132C55 /* Release */ = {
+		F3192C97218B8B9300AA0C56 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -282,36 +278,36 @@
 			};
 			name = Release;
 		};
-		F33250452187A6FB00132C55 /* Debug */ = {
+		F3192C99218B8B9300AA0C56 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4CZ8YXN766;
-				INFOPLIST_FILE = basicProgrammaticLayout/Info.plist;
+				INFOPLIST_FILE = "Programmatic-Tip-Calculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Timofey-Makhlay.basicProgrammaticLayout";
+				PRODUCT_BUNDLE_IDENTIFIER = "Timofey-Makhlay.Programmatic-Tip-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		F33250462187A6FB00132C55 /* Release */ = {
+		F3192C9A218B8B9300AA0C56 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4CZ8YXN766;
-				INFOPLIST_FILE = basicProgrammaticLayout/Info.plist;
+				INFOPLIST_FILE = "Programmatic-Tip-Calculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Timofey-Makhlay.basicProgrammaticLayout";
+				PRODUCT_BUNDLE_IDENTIFIER = "Timofey-Makhlay.Programmatic-Tip-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -321,25 +317,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F332502D2187A6FA00132C55 /* Build configuration list for PBXProject "basicProgrammaticLayout" */ = {
+		F3192C81218B8B9200AA0C56 /* Build configuration list for PBXProject "Programmatic-Tip-Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F33250422187A6FB00132C55 /* Debug */,
-				F33250432187A6FB00132C55 /* Release */,
+				F3192C96218B8B9300AA0C56 /* Debug */,
+				F3192C97218B8B9300AA0C56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F33250442187A6FB00132C55 /* Build configuration list for PBXNativeTarget "basicProgrammaticLayout" */ = {
+		F3192C98218B8B9300AA0C56 /* Build configuration list for PBXNativeTarget "Programmatic-Tip-Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F33250452187A6FB00132C55 /* Debug */,
-				F33250462187A6FB00132C55 /* Release */,
+				F3192C99218B8B9300AA0C56 /* Debug */,
+				F3192C9A218B8B9300AA0C56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F332502A2187A6FA00132C55 /* Project object */;
+	rootObject = F3192C7E218B8B9200AA0C56 /* Project object */;
 }
