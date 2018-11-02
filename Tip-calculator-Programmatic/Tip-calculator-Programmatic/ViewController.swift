@@ -50,6 +50,15 @@ class ViewController: UIViewController {
         return view
     }()
     
+    private let calculateButton: UIButton = {
+        let button = UIButton(type: .system)
+        button.setTitle("Calculate!", for: .normal)
+        button.translatesAutoresizingMaskIntoConstraints = false
+//        button.setTitleColor(.gray, for: .normal)
+        button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 14)
+        return button
+    }()
+    
     func addInputViewWithLabels() {
         // Bill amount
         let billTextView = UITextView()
@@ -89,7 +98,18 @@ class ViewController: UIViewController {
         tipSegment.insertSegment(withTitle: "18%", at: 1, animated: true)
         tipSegment.insertSegment(withTitle: "20%", at: 2, animated: true)
         tipSegment.tintColor = #colorLiteral(red: 0.8549019694, green: 0.250980407, blue: 0.4784313738, alpha: 1)
-
+        
+        //create toolbar object
+        let toolBar: UIToolbar = UIToolbar(frame:CGRect(x: 0, y: 0, width: view.bounds.width, height: 44))
+        toolBar.barStyle = UIBarStyle.default
+        //add barbuttonitems to toolbar
+        let flexsibleSpace: UIBarButtonItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.flexibleSpace, target: nil, action: nil) // flexible space to add left end side
+        let calc = calculateButton.toBarButtonItem()
+        toolBar.items = [flexsibleSpace, calc, flexsibleSpace]
+        //assing toolbar as inputAccessoryView
+        billTextField.inputAccessoryView = toolBar
+        toolBar.sizeToFit()
+        
         // Colored View
         view.addSubview(inputLabelsView)
         inputLabelsView.anchor(top: navbar.bottomAnchor, leading: nil, bottom: nil, trailing: nil, padding: .init(top: 20, left: 20, bottom: 0, right: 20), size: .init(width: view.bounds.width - 40, height: view.bounds.height/3.2))
@@ -117,7 +137,9 @@ class ViewController: UIViewController {
         inputStack.centerYAnchor.constraint(equalTo: inputLabelsView.centerYAnchor).isActive = true
     }
     
-    
+    @objc func didPressDoneButton() {
+        print("pressed.")
+    }
     // TODO: Second view displaying math results in two labels
     private let outputLabelsView: UIView = {
         let view = UIView()
@@ -294,4 +316,9 @@ extension UIView {
     
     
     
+}
+extension UIButton {
+    func toBarButtonItem() -> UIBarButtonItem {
+        return UIBarButtonItem(customView: self)
+    }
 }
