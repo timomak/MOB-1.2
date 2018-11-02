@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Programmatic-Tip-Calculator
+//  Tip-calculator-Programmatic
 //
 //  Created by timofey makhlay on 11/1/18.
 //  Copyright © 2018 Timofey Makhlay. All rights reserved.

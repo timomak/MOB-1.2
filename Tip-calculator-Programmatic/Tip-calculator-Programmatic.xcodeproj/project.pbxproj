@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F3192C8A218B8B9200AA0C56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3192C89218B8B9200AA0C56 /* AppDelegate.swift */; };
-		F3192C8C218B8B9200AA0C56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3192C8B218B8B9200AA0C56 /* ViewController.swift */; };
-		F3192C8F218B8B9200AA0C56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3192C8D218B8B9200AA0C56 /* Main.storyboard */; };
-		F3192C91218B8B9300AA0C56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3192C90218B8B9300AA0C56 /* Assets.xcassets */; };
-		F3192C94218B8B9300AA0C56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3192C92218B8B9300AA0C56 /* LaunchScreen.storyboard */; };
+		F3192CC6218BB13000AA0C56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3192CC5218BB13000AA0C56 /* AppDelegate.swift */; };
+		F3192CC8218BB13000AA0C56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3192CC7218BB13000AA0C56 /* ViewController.swift */; };
+		F3192CCB218BB13000AA0C56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3192CC9218BB13000AA0C56 /* Main.storyboard */; };
+		F3192CCD218BB13100AA0C56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3192CCC218BB13100AA0C56 /* Assets.xcassets */; };
+		F3192CD0218BB13100AA0C56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3192CCE218BB13100AA0C56 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F3192C86218B8B9200AA0C56 /* Programmatic-Tip-Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Programmatic-Tip-Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3192C89218B8B9200AA0C56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F3192C8B218B8B9200AA0C56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F3192C8E218B8B9200AA0C56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F3192C90218B8B9300AA0C56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F3192C93218B8B9300AA0C56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F3192C95218B8B9300AA0C56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3192CC2218BB13000AA0C56 /* Tip-calculator-Programmatic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tip-calculator-Programmatic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3192CC5218BB13000AA0C56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3192CC7218BB13000AA0C56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3192CCA218BB13000AA0C56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3192CCC218BB13100AA0C56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3192CCF218BB13100AA0C56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3192CD1218BB13100AA0C56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F3192C83218B8B9200AA0C56 /* Frameworks */ = {
+		F3192CBF218BB13000AA0C56 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,71 +35,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F3192C7D218B8B9200AA0C56 = {
+		F3192CB9218BB13000AA0C56 = {
 			isa = PBXGroup;
 			children = (
-				F3192C88218B8B9200AA0C56 /* Programmatic-Tip-Calculator */,
-				F3192C87218B8B9200AA0C56 /* Products */,
+				F3192CC4218BB13000AA0C56 /* Tip-calculator-Programmatic */,
+				F3192CC3218BB13000AA0C56 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F3192C87218B8B9200AA0C56 /* Products */ = {
+		F3192CC3218BB13000AA0C56 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F3192C86218B8B9200AA0C56 /* Programmatic-Tip-Calculator.app */,
+				F3192CC2218BB13000AA0C56 /* Tip-calculator-Programmatic.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F3192C88218B8B9200AA0C56 /* Programmatic-Tip-Calculator */ = {
+		F3192CC4218BB13000AA0C56 /* Tip-calculator-Programmatic */ = {
 			isa = PBXGroup;
 			children = (
-				F3192C89218B8B9200AA0C56 /* AppDelegate.swift */,
-				F3192C8B218B8B9200AA0C56 /* ViewController.swift */,
-				F3192C8D218B8B9200AA0C56 /* Main.storyboard */,
-				F3192C90218B8B9300AA0C56 /* Assets.xcassets */,
-				F3192C92218B8B9300AA0C56 /* LaunchScreen.storyboard */,
-				F3192C95218B8B9300AA0C56 /* Info.plist */,
+				F3192CC5218BB13000AA0C56 /* AppDelegate.swift */,
+				F3192CC7218BB13000AA0C56 /* ViewController.swift */,
+				F3192CC9218BB13000AA0C56 /* Main.storyboard */,
+				F3192CCC218BB13100AA0C56 /* Assets.xcassets */,
+				F3192CCE218BB13100AA0C56 /* LaunchScreen.storyboard */,
+				F3192CD1218BB13100AA0C56 /* Info.plist */,
 			);
-			path = "Programmatic-Tip-Calculator";
+			path = "Tip-calculator-Programmatic";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F3192C85218B8B9200AA0C56 /* Programmatic-Tip-Calculator */ = {
+		F3192CC1218BB13000AA0C56 /* Tip-calculator-Programmatic */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F3192C98218B8B9300AA0C56 /* Build configuration list for PBXNativeTarget "Programmatic-Tip-Calculator" */;
+			buildConfigurationList = F3192CD4218BB13100AA0C56 /* Build configuration list for PBXNativeTarget "Tip-calculator-Programmatic" */;
 			buildPhases = (
-				F3192C82218B8B9200AA0C56 /* Sources */,
-				F3192C83218B8B9200AA0C56 /* Frameworks */,
-				F3192C84218B8B9200AA0C56 /* Resources */,
+				F3192CBE218BB13000AA0C56 /* Sources */,
+				F3192CBF218BB13000AA0C56 /* Frameworks */,
+				F3192CC0218BB13000AA0C56 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Programmatic-Tip-Calculator";
-			productName = "Programmatic-Tip-Calculator";
-			productReference = F3192C86218B8B9200AA0C56 /* Programmatic-Tip-Calculator.app */;
+			name = "Tip-calculator-Programmatic";
+			productName = "Tip-calculator-Programmatic";
+			productReference = F3192CC2218BB13000AA0C56 /* Tip-calculator-Programmatic.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F3192C7E218B8B9200AA0C56 /* Project object */ = {
+		F3192CBA218BB13000AA0C56 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Timofey Makhlay";
 				TargetAttributes = {
-					F3192C85218B8B9200AA0C56 = {
+					F3192CC1218BB13000AA0C56 = {
 						CreatedOnToolsVersion = 10.0;
 					};
 				};
 			};
-			buildConfigurationList = F3192C81218B8B9200AA0C56 /* Build configuration list for PBXProject "Programmatic-Tip-Calculator" */;
+			buildConfigurationList = F3192CBD218BB13000AA0C56 /* Build configuration list for PBXProject "Tip-calculator-Programmatic" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -107,54 +107,54 @@
 				en,
 				Base,
 			);
-			mainGroup = F3192C7D218B8B9200AA0C56;
-			productRefGroup = F3192C87218B8B9200AA0C56 /* Products */;
+			mainGroup = F3192CB9218BB13000AA0C56;
+			productRefGroup = F3192CC3218BB13000AA0C56 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F3192C85218B8B9200AA0C56 /* Programmatic-Tip-Calculator */,
+				F3192CC1218BB13000AA0C56 /* Tip-calculator-Programmatic */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F3192C84218B8B9200AA0C56 /* Resources */ = {
+		F3192CC0218BB13000AA0C56 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3192C94218B8B9300AA0C56 /* LaunchScreen.storyboard in Resources */,
-				F3192C91218B8B9300AA0C56 /* Assets.xcassets in Resources */,
-				F3192C8F218B8B9200AA0C56 /* Main.storyboard in Resources */,
+				F3192CD0218BB13100AA0C56 /* LaunchScreen.storyboard in Resources */,
+				F3192CCD218BB13100AA0C56 /* Assets.xcassets in Resources */,
+				F3192CCB218BB13000AA0C56 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F3192C82218B8B9200AA0C56 /* Sources */ = {
+		F3192CBE218BB13000AA0C56 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3192C8C218B8B9200AA0C56 /* ViewController.swift in Sources */,
-				F3192C8A218B8B9200AA0C56 /* AppDelegate.swift in Sources */,
+				F3192CC8218BB13000AA0C56 /* ViewController.swift in Sources */,
+				F3192CC6218BB13000AA0C56 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F3192C8D218B8B9200AA0C56 /* Main.storyboard */ = {
+		F3192CC9218BB13000AA0C56 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F3192C8E218B8B9200AA0C56 /* Base */,
+				F3192CCA218BB13000AA0C56 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		F3192C92218B8B9300AA0C56 /* LaunchScreen.storyboard */ = {
+		F3192CCE218BB13100AA0C56 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F3192C93218B8B9300AA0C56 /* Base */,
+				F3192CCF218BB13100AA0C56 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -162,7 +162,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		F3192C96218B8B9300AA0C56 /* Debug */ = {
+		F3192CD2218BB13100AA0C56 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -223,7 +223,7 @@
 			};
 			name = Debug;
 		};
-		F3192C97218B8B9300AA0C56 /* Release */ = {
+		F3192CD3218BB13100AA0C56 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -278,36 +278,36 @@
 			};
 			name = Release;
 		};
-		F3192C99218B8B9300AA0C56 /* Debug */ = {
+		F3192CD5218BB13100AA0C56 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4CZ8YXN766;
-				INFOPLIST_FILE = "Programmatic-Tip-Calculator/Info.plist";
+				DEVELOPMENT_TEAM = SAZ2DLKCVY;
+				INFOPLIST_FILE = "Tip-calculator-Programmatic/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Timofey-Makhlay.Programmatic-Tip-Calculator";
+				PRODUCT_BUNDLE_IDENTIFIER = "Timofey-Makhlay.Tip-calculator-Programmatic";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		F3192C9A218B8B9300AA0C56 /* Release */ = {
+		F3192CD6218BB13100AA0C56 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4CZ8YXN766;
-				INFOPLIST_FILE = "Programmatic-Tip-Calculator/Info.plist";
+				DEVELOPMENT_TEAM = SAZ2DLKCVY;
+				INFOPLIST_FILE = "Tip-calculator-Programmatic/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Timofey-Makhlay.Programmatic-Tip-Calculator";
+				PRODUCT_BUNDLE_IDENTIFIER = "Timofey-Makhlay.Tip-calculator-Programmatic";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -317,25 +317,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F3192C81218B8B9200AA0C56 /* Build configuration list for PBXProject "Programmatic-Tip-Calculator" */ = {
+		F3192CBD218BB13000AA0C56 /* Build configuration list for PBXProject "Tip-calculator-Programmatic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3192C96218B8B9300AA0C56 /* Debug */,
-				F3192C97218B8B9300AA0C56 /* Release */,
+				F3192CD2218BB13100AA0C56 /* Debug */,
+				F3192CD3218BB13100AA0C56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F3192C98218B8B9300AA0C56 /* Build configuration list for PBXNativeTarget "Programmatic-Tip-Calculator" */ = {
+		F3192CD4218BB13100AA0C56 /* Build configuration list for PBXNativeTarget "Tip-calculator-Programmatic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3192C99218B8B9300AA0C56 /* Debug */,
-				F3192C9A218B8B9300AA0C56 /* Release */,
+				F3192CD5218BB13100AA0C56 /* Debug */,
+				F3192CD6218BB13100AA0C56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F3192C7E218B8B9200AA0C56 /* Project object */;
+	rootObject = F3192CBA218BB13000AA0C56 /* Project object */;
 }
