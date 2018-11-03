@@ -12,6 +12,7 @@
 		F3192CCB218BB13000AA0C56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3192CC9218BB13000AA0C56 /* Main.storyboard */; };
 		F3192CCD218BB13100AA0C56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3192CCC218BB13100AA0C56 /* Assets.xcassets */; };
 		F3192CD0218BB13100AA0C56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3192CCE218BB13100AA0C56 /* LaunchScreen.storyboard */; };
+		F3A97E00218D6D97009DA174 /* ExtentionsForViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A97DFF218D6D97009DA174 /* ExtentionsForViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F3192CCC218BB13100AA0C56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3192CCF218BB13100AA0C56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3192CD1218BB13100AA0C56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3A97DFF218D6D97009DA174 /* ExtentionsForViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtentionsForViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				F3192CC5218BB13000AA0C56 /* AppDelegate.swift */,
 				F3192CC7218BB13000AA0C56 /* ViewController.swift */,
+				F3A97DFF218D6D97009DA174 /* ExtentionsForViewController.swift */,
 				F3192CC9218BB13000AA0C56 /* Main.storyboard */,
 				F3192CCC218BB13100AA0C56 /* Assets.xcassets */,
 				F3192CCE218BB13100AA0C56 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				F3192CC8218BB13000AA0C56 /* ViewController.swift in Sources */,
 				F3192CC6218BB13000AA0C56 /* AppDelegate.swift in Sources */,
+				F3A97E00218D6D97009DA174 /* ExtentionsForViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
