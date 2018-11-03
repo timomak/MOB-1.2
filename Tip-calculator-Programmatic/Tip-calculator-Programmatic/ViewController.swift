@@ -167,7 +167,7 @@ class ViewController: UIViewController {
     
     private let calculateButton: UIButton = {
         let button = UIButton()
-        button.backgroundColor = #colorLiteral(red: 0.09553630322, green: 0.04069456336, blue: 0.4362659324, alpha: 1)
+        button.backgroundColor = .lightmodeOutline
         button.layer.cornerRadius = 8
         button.setTitle("CALCULATE",for: .normal)
         button.addTarget(self, action: #selector(didPresscalculateButton), for: .touchUpInside)
@@ -278,7 +278,7 @@ class ViewController: UIViewController {
         buttonsStack.translatesAutoresizingMaskIntoConstraints = false
         buttonsStack.distribution = .fillEqually
         buttonsStack.axis = .horizontal
-        buttonsStack.spacing = 30
+        buttonsStack.spacing = 20
         
         view.addSubview(buttonsStack)
         buttonsStack.anchor(top: outputLabelsView.bottomAnchor, leading: outputLabelsView.leadingAnchor, bottom: view.safeAreaLayoutGuide.bottomAnchor, trailing: outputLabelsView.trailingAnchor, padding: .init(top: 20, left: 0, bottom: 20, right: 0))
@@ -327,6 +327,9 @@ class ViewController: UIViewController {
 
 
             resetButton.backgroundColor = .darkmodeBase
+            calculateButton.backgroundColor = .darkmodeBase
+            calculateButton.layer.borderWidth = 1
+            calculateButton.layer.borderColor = #colorLiteral(red: 0.3445012569, green: 0.8545694351, blue: 0.6445240378, alpha: 1)
         }
         else {
             view.backgroundColor = .lightmodeFoundation
@@ -351,6 +354,8 @@ class ViewController: UIViewController {
             
             
             resetButton.backgroundColor = .lightmodeBase
+            calculateButton.backgroundColor = .lightmodeOutline
+            calculateButton.layer.borderWidth = 0
         }
     }
     
