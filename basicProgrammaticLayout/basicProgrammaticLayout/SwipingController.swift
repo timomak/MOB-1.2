@@ -9,7 +9,7 @@
 import UIKit
 
 class SwipingController: UICollectionViewController, UICollectionViewDelegateFlowLayout {
-    
+    let imageNames = ["bear_first","heart_second","leaf_third"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,12 +25,13 @@ class SwipingController: UICollectionViewController, UICollectionViewDelegateFlo
         return 0
     }
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 4
+        return imageNames.count
     }
     
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cellId", for: indexPath)
-//        cell.backgroundColor = indexPath.item % 2 == 0 ? .red : .green
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cellId", for: indexPath) as! PageCell
+        let imageName = imageNames[indexPath.item]
+        cell.bearImageView.image = UIImage(named: imageName)
         return cell
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
