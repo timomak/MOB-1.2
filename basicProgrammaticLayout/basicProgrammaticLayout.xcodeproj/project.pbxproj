@@ -13,6 +13,7 @@
 		F332503D2187A6FB00132C55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F332503C2187A6FB00132C55 /* Assets.xcassets */; };
 		F33250402187A6FB00132C55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F332503E2187A6FB00132C55 /* LaunchScreen.storyboard */; };
 		F35F2332218A5F1600FDC473 /* SwipingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35F2331218A5F1600FDC473 /* SwipingController.swift */; };
+		F3F3C64F2190FF5C005879DC /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F3C64E2190FF5C005879DC /* PageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F332503F2187A6FB00132C55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F33250412187A6FB00132C55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F35F2331218A5F1600FDC473 /* SwipingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipingController.swift; sourceTree = "<group>"; };
+		F3F3C64E2190FF5C005879DC /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				F33250352187A6FA00132C55 /* AppDelegate.swift */,
 				F33250372187A6FA00132C55 /* ViewController.swift */,
 				F35F2331218A5F1600FDC473 /* SwipingController.swift */,
+				F3F3C64E2190FF5C005879DC /* PageCell.swift */,
 				F33250392187A6FA00132C55 /* Main.storyboard */,
 				F332503C2187A6FB00132C55 /* Assets.xcassets */,
 				F332503E2187A6FB00132C55 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				F33250382187A6FA00132C55 /* ViewController.swift in Sources */,
 				F33250362187A6FA00132C55 /* AppDelegate.swift in Sources */,
+				F3F3C64F2190FF5C005879DC /* PageCell.swift in Sources */,
 				F35F2332218A5F1600FDC473 /* SwipingController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
