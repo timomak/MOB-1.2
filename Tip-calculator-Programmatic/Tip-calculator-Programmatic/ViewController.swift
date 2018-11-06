@@ -89,6 +89,7 @@ class ViewController: UIViewController {
         segment.insertSegment(withTitle: "18%", at: 1, animated: true)
         segment.insertSegment(withTitle: "20%", at: 2, animated: true)
         segment.tintColor = #colorLiteral(red: 0.8549019694, green: 0.250980407, blue: 0.4784313738, alpha: 1)
+        segment.addTarget(self, action: #selector(didPresscalculateButton), for:.allEvents)
         return segment
     }()
     
@@ -282,21 +283,7 @@ class ViewController: UIViewController {
         
         view.addSubview(buttonsStack)
         buttonsStack.anchor(top: outputLabelsView.bottomAnchor, leading: outputLabelsView.leadingAnchor, bottom: view.safeAreaLayoutGuide.bottomAnchor, trailing: outputLabelsView.trailingAnchor, padding: .init(top: 20, left: 0, bottom: 20, right: 0))
-//        outputStack.centerYAnchor.constraint(equalTo: outputLabelsView.centerYAnchor).isActive = true
-        // Button Text
-//        let resetText = UITextView()
-//        resetText.text = "RESET"
-//        resetText.font = UIFont.boldSystemFont(ofSize: 30)
-//        resetText.backgroundColor = nil
-//        resetText.textAlignment = .center
-//        resetText.isEditable = false
-//        resetText.isSelectable = false
-//        resetText.isScrollEnabled = false
-//        resetText.textColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
-//        resetButton.addSubview(resetText)
-//        resetText.anchor(top: nil, leading: resetButton.leadingAnchor, bottom: nil, trailing: resetButton.trailingAnchor)
-//        resetText.centerVerticalOfView(to: resetButton)
-        
+
     }
     func reloadView() {
         addCustomNavbar()
@@ -377,7 +364,9 @@ class ViewController: UIViewController {
     
     // Calulate Button Pressed
     @objc func didPresscalculateButton() {
-        var billAmount = Double(billTextField.text!) ?? 0.00
+        print("Calculate Button pressed")
+        view.endEditing(true)
+        let billAmount = Double(billTextField.text!) ?? 0.00
         var tipAmount = 0.00
         if tipSegment.selectedSegmentIndex == 0 {
             tipAmount = 0.15
@@ -390,7 +379,6 @@ class ViewController: UIViewController {
         }
         tipOutput.text = "$" + (String(format: "%.2f", billAmount * tipAmount) ?? "$0.00")
         totalOutput.text = "$" + (String(format: "%.2f", (billAmount * tipAmount) + billAmount) ?? "$0.00")
-        hideKeyboardWhenTappedAround()
     }
     
     @objc func didPressResetButton() {
