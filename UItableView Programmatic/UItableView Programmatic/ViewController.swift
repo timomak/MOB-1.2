@@ -52,6 +52,11 @@ class ViewController: UITableViewController {
         // Adding an image
         var image : UIImage = #imageLiteral(resourceName: "Screen Shot 2018-11-08 at 1.04.35 PM")
         cell.imageView?.image = image
+        
+        
+        // Standard options for accessories
+        cell.accessoryType = UITableViewCell.AccessoryType.checkmark
+        cell.accessoryView?.backgroundColor = UIColor.blue
         return cell
     }
 

@@ -12,6 +12,8 @@
 		F38345F92194D4C4000E7E6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F38345F72194D4C4000E7E6A /* Main.storyboard */; };
 		F38345FB2194D4C6000E7E6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F38345FA2194D4C6000E7E6A /* Assets.xcassets */; };
 		F38345FE2194D4C6000E7E6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F38345FC2194D4C6000E7E6A /* LaunchScreen.storyboard */; };
+		F38346062194EB45000E7E6A /* CustomCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38346052194EB45000E7E6A /* CustomCells.swift */; };
+		F38346082194F11E000E7E6A /* PropertiesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38346072194F11E000E7E6A /* PropertiesCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		F38345FA2194D4C6000E7E6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F38345FD2194D4C6000E7E6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F38345FF2194D4C6000E7E6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F38346052194EB45000E7E6A /* CustomCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCells.swift; sourceTree = "<group>"; };
+		F38346072194F11E000E7E6A /* PropertiesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertiesCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				F38345F32194D4C4000E7E6A /* AppDelegate.swift */,
 				F38345F52194D4C4000E7E6A /* ViewController.swift */,
+				F38346052194EB45000E7E6A /* CustomCells.swift */,
+				F38346072194F11E000E7E6A /* PropertiesCell.swift */,
 				F38345F72194D4C4000E7E6A /* Main.storyboard */,
 				F38345FA2194D4C6000E7E6A /* Assets.xcassets */,
 				F38345FC2194D4C6000E7E6A /* LaunchScreen.storyboard */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F38346082194F11E000E7E6A /* PropertiesCell.swift in Sources */,
 				F38345F62194D4C4000E7E6A /* ViewController.swift in Sources */,
 				F38345F42194D4C4000E7E6A /* AppDelegate.swift in Sources */,
+				F38346062194EB45000E7E6A /* CustomCells.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
