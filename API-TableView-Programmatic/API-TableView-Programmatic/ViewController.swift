@@ -1,15 +1,17 @@
 //
 //  ViewController.swift
-//  UItableView Programmatic
+//  API-TableView-Programmatic
 //
-//  Created by timofey makhlay on 11/8/18.
+//  Created by timofey makhlay on 11/13/18.
 //  Copyright © 2018 Timofey Makhlay. All rights reserved.
 //
 
 import UIKit
 
 class ViewController: UITableViewController {
-
+    
+    
+    
     let cellId = "cellId"
     
     let twoDimetionalArray = [
@@ -23,6 +25,20 @@ class ViewController: UITableViewController {
         // Do any additional setup after loading the view, typically from a nib.
         navigationItem.title = "Contacts"
         navigationController?.navigationBar.prefersLargeTitles = true
+        
+        // Creating API URL SESSION to connect to Itunes API
+        let jsonUrlString = "https://itunes.apple.com/us/rss/topmovies/limit=25/json"
+        
+        guard let url = URL(string: jsonUrlString) else {return}
+        
+        URLSession.shared.dataTask(with: url) { (data, response, err) in
+            // Check if err
+            // check if response status is 200 (OK!)
+//            let
+            print("DO stuff here!")
+        }.resume()
+        
+        
         
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: cellId)
     }
@@ -45,7 +61,7 @@ class ViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellId, for: indexPath)
         
-//        let name = indexPath.section == 0 ? names[indexPath.row] : cNames[indexPath.row]
+        //        let name = indexPath.section == 0 ? names[indexPath.row] : cNames[indexPath.row]
         let name = twoDimetionalArray[indexPath.section][indexPath.row]
         cell.textLabel?.text = "\(name)     Section: \(indexPath.section) Row: \(indexPath.row)"
         
@@ -59,6 +75,6 @@ class ViewController: UITableViewController {
         cell.accessoryView?.backgroundColor = UIColor.blue
         return cell
     }
-
+    
 }
 

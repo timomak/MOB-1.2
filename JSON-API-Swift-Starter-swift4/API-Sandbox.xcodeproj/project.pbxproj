@@ -17,6 +17,7 @@
 		BC7C84691D1D677800BA19ED /* Random-User.json in Resources */ = {isa = PBXBuildFile; fileRef = BC7C84671D1D677800BA19ED /* Random-User.json */; };
 		BC7C846B1D20C2B000BA19ED /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7C846A1D20C2B000BA19ED /* Movie.swift */; };
 		BC7C846D1D20CEEB00BA19ED /* Challenges.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7C846C1D20CEEB00BA19ED /* Challenges.swift */; };
+		F3BB48B3219B5FA90082A333 /* ViewControllerWithAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BB48B2219B5FA90082A333 /* ViewControllerWithAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		BC7C846A1D20C2B000BA19ED /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		BC7C846C1D20CEEB00BA19ED /* Challenges.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Challenges.swift; sourceTree = "<group>"; };
 		BE6F9BF20D7BFD90E54D152E /* Pods-API-Sandbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-API-Sandbox.release.xcconfig"; path = "Pods/Target Support Files/Pods-API-Sandbox/Pods-API-Sandbox.release.xcconfig"; sourceTree = "<group>"; };
+		F3BB48B2219B5FA90082A333 /* ViewControllerWithAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerWithAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				BC7C846C1D20CEEB00BA19ED /* Challenges.swift */,
 				BC7C846A1D20C2B000BA19ED /* Movie.swift */,
 				BC7C84551D1D488300BA19ED /* ViewController.swift */,
+				F3BB48B2219B5FA90082A333 /* ViewControllerWithAPI.swift */,
 				BC7C84571D1D488300BA19ED /* Main.storyboard */,
 				BC7C845C1D1D488300BA19ED /* LaunchScreen.storyboard */,
 				BC7C84651D1D677800BA19ED /* JSON */,
@@ -144,6 +147,7 @@
 					BC7C844F1D1D488300BA19ED = {
 						CreatedOnToolsVersion = 7.3.1;
 						LastSwiftMigration = 0920;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -248,6 +252,7 @@
 				BC7C84561D1D488300BA19ED /* ViewController.swift in Sources */,
 				BC7C846D1D20CEEB00BA19ED /* Challenges.swift in Sources */,
 				BC7C84541D1D488300BA19ED /* AppDelegate.swift in Sources */,
+				F3BB48B3219B5FA90082A333 /* ViewControllerWithAPI.swift in Sources */,
 				BC7C846B1D20C2B000BA19ED /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -380,10 +385,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "API-Sandbox/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.makeschool.API-Sandbox";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -395,10 +403,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "API-Sandbox/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.makeschool.API-Sandbox";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};

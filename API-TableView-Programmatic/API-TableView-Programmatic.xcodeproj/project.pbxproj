@@ -7,29 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F38345F42194D4C4000E7E6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38345F32194D4C4000E7E6A /* AppDelegate.swift */; };
-		F38345F62194D4C4000E7E6A /* ViewControllerWithAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38345F52194D4C4000E7E6A /* ViewControllerWithAPI.swift */; };
-		F38345F92194D4C4000E7E6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F38345F72194D4C4000E7E6A /* Main.storyboard */; };
-		F38345FB2194D4C6000E7E6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F38345FA2194D4C6000E7E6A /* Assets.xcassets */; };
-		F38345FE2194D4C6000E7E6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F38345FC2194D4C6000E7E6A /* LaunchScreen.storyboard */; };
-		F38346062194EB45000E7E6A /* CustomCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38346052194EB45000E7E6A /* CustomCells.swift */; };
-		F38346082194F11E000E7E6A /* PropertiesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38346072194F11E000E7E6A /* PropertiesCell.swift */; };
+		F35156C9219B5554000D3099 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35156C8219B5554000D3099 /* AppDelegate.swift */; };
+		F35156CB219B5554000D3099 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35156CA219B5554000D3099 /* ViewController.swift */; };
+		F35156CE219B5554000D3099 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F35156CC219B5554000D3099 /* Main.storyboard */; };
+		F35156D0219B5555000D3099 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F35156CF219B5555000D3099 /* Assets.xcassets */; };
+		F35156D3219B5555000D3099 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F35156D1219B5555000D3099 /* LaunchScreen.storyboard */; };
+		F35156DB219B55EA000D3099 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35156DA219B55EA000D3099 /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F38345F02194D4C4000E7E6A /* UItableView Programmatic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UItableView Programmatic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F38345F32194D4C4000E7E6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F38345F52194D4C4000E7E6A /* ViewControllerWithAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerWithAPI.swift; sourceTree = "<group>"; };
-		F38345F82194D4C4000E7E6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F38345FA2194D4C6000E7E6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F38345FD2194D4C6000E7E6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F38345FF2194D4C6000E7E6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F38346052194EB45000E7E6A /* CustomCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCells.swift; sourceTree = "<group>"; };
-		F38346072194F11E000E7E6A /* PropertiesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertiesCell.swift; sourceTree = "<group>"; };
+		F35156C5219B5554000D3099 /* API-TableView-Programmatic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "API-TableView-Programmatic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F35156C8219B5554000D3099 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F35156CA219B5554000D3099 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F35156CD219B5554000D3099 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F35156CF219B5555000D3099 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F35156D2219B5555000D3099 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F35156D4219B5555000D3099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F35156DA219B55EA000D3099 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F38345ED2194D4C4000E7E6A /* Frameworks */ = {
+		F35156C2219B5554000D3099 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,73 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F38345E72194D4C4000E7E6A = {
+		F35156BC219B5554000D3099 = {
 			isa = PBXGroup;
 			children = (
-				F38345F22194D4C4000E7E6A /* UItableView Programmatic */,
-				F38345F12194D4C4000E7E6A /* Products */,
+				F35156C7219B5554000D3099 /* API-TableView-Programmatic */,
+				F35156C6219B5554000D3099 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F38345F12194D4C4000E7E6A /* Products */ = {
+		F35156C6219B5554000D3099 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F38345F02194D4C4000E7E6A /* UItableView Programmatic.app */,
+				F35156C5219B5554000D3099 /* API-TableView-Programmatic.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F38345F22194D4C4000E7E6A /* UItableView Programmatic */ = {
+		F35156C7219B5554000D3099 /* API-TableView-Programmatic */ = {
 			isa = PBXGroup;
 			children = (
-				F38345F32194D4C4000E7E6A /* AppDelegate.swift */,
-				F38345F52194D4C4000E7E6A /* ViewControllerWithAPI.swift */,
-				F38346052194EB45000E7E6A /* CustomCells.swift */,
-				F38346072194F11E000E7E6A /* PropertiesCell.swift */,
-				F38345F72194D4C4000E7E6A /* Main.storyboard */,
-				F38345FA2194D4C6000E7E6A /* Assets.xcassets */,
-				F38345FC2194D4C6000E7E6A /* LaunchScreen.storyboard */,
-				F38345FF2194D4C6000E7E6A /* Info.plist */,
+				F35156C8219B5554000D3099 /* AppDelegate.swift */,
+				F35156CA219B5554000D3099 /* ViewController.swift */,
+				F35156DA219B55EA000D3099 /* Movie.swift */,
+				F35156CC219B5554000D3099 /* Main.storyboard */,
+				F35156CF219B5555000D3099 /* Assets.xcassets */,
+				F35156D1219B5555000D3099 /* LaunchScreen.storyboard */,
+				F35156D4219B5555000D3099 /* Info.plist */,
 			);
-			path = "UItableView Programmatic";
+			path = "API-TableView-Programmatic";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F38345EF2194D4C4000E7E6A /* UItableView Programmatic */ = {
+		F35156C4219B5554000D3099 /* API-TableView-Programmatic */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F38346022194D4C6000E7E6A /* Build configuration list for PBXNativeTarget "UItableView Programmatic" */;
+			buildConfigurationList = F35156D7219B5555000D3099 /* Build configuration list for PBXNativeTarget "API-TableView-Programmatic" */;
 			buildPhases = (
-				F38345EC2194D4C4000E7E6A /* Sources */,
-				F38345ED2194D4C4000E7E6A /* Frameworks */,
-				F38345EE2194D4C4000E7E6A /* Resources */,
+				F35156C1219B5554000D3099 /* Sources */,
+				F35156C2219B5554000D3099 /* Frameworks */,
+				F35156C3219B5554000D3099 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "UItableView Programmatic";
-			productName = "UItableView Programmatic";
-			productReference = F38345F02194D4C4000E7E6A /* UItableView Programmatic.app */;
+			name = "API-TableView-Programmatic";
+			productName = "API-TableView-Programmatic";
+			productReference = F35156C5219B5554000D3099 /* API-TableView-Programmatic.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F38345E82194D4C4000E7E6A /* Project object */ = {
+		F35156BD219B5554000D3099 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Timofey Makhlay";
 				TargetAttributes = {
-					F38345EF2194D4C4000E7E6A = {
+					F35156C4219B5554000D3099 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = F38345EB2194D4C4000E7E6A /* Build configuration list for PBXProject "UItableView Programmatic" */;
+			buildConfigurationList = F35156C0219B5554000D3099 /* Build configuration list for PBXProject "API-TableView-Programmatic" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,56 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = F38345E72194D4C4000E7E6A;
-			productRefGroup = F38345F12194D4C4000E7E6A /* Products */;
+			mainGroup = F35156BC219B5554000D3099;
+			productRefGroup = F35156C6219B5554000D3099 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F38345EF2194D4C4000E7E6A /* UItableView Programmatic */,
+				F35156C4219B5554000D3099 /* API-TableView-Programmatic */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F38345EE2194D4C4000E7E6A /* Resources */ = {
+		F35156C3219B5554000D3099 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F38345FE2194D4C6000E7E6A /* LaunchScreen.storyboard in Resources */,
-				F38345FB2194D4C6000E7E6A /* Assets.xcassets in Resources */,
-				F38345F92194D4C4000E7E6A /* Main.storyboard in Resources */,
+				F35156D3219B5555000D3099 /* LaunchScreen.storyboard in Resources */,
+				F35156D0219B5555000D3099 /* Assets.xcassets in Resources */,
+				F35156CE219B5554000D3099 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F38345EC2194D4C4000E7E6A /* Sources */ = {
+		F35156C1219B5554000D3099 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F38346082194F11E000E7E6A /* PropertiesCell.swift in Sources */,
-				F38345F62194D4C4000E7E6A /* ViewControllerWithAPI.swift in Sources */,
-				F38345F42194D4C4000E7E6A /* AppDelegate.swift in Sources */,
-				F38346062194EB45000E7E6A /* CustomCells.swift in Sources */,
+				F35156CB219B5554000D3099 /* ViewController.swift in Sources */,
+				F35156C9219B5554000D3099 /* AppDelegate.swift in Sources */,
+				F35156DB219B55EA000D3099 /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F38345F72194D4C4000E7E6A /* Main.storyboard */ = {
+		F35156CC219B5554000D3099 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F38345F82194D4C4000E7E6A /* Base */,
+				F35156CD219B5554000D3099 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		F38345FC2194D4C6000E7E6A /* LaunchScreen.storyboard */ = {
+		F35156D1219B5555000D3099 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F38345FD2194D4C6000E7E6A /* Base */,
+				F35156D2219B5555000D3099 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -170,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		F38346002194D4C6000E7E6A /* Debug */ = {
+		F35156D5219B5555000D3099 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -231,7 +227,7 @@
 			};
 			name = Debug;
 		};
-		F38346012194D4C6000E7E6A /* Release */ = {
+		F35156D6219B5555000D3099 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -286,36 +282,36 @@
 			};
 			name = Release;
 		};
-		F38346032194D4C6000E7E6A /* Debug */ = {
+		F35156D8219B5555000D3099 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SAZ2DLKCVY;
-				INFOPLIST_FILE = "UItableView Programmatic/Info.plist";
+				INFOPLIST_FILE = "API-TableView-Programmatic/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Timofey-Makhlay.UItableView-Programmatic";
+				PRODUCT_BUNDLE_IDENTIFIER = "Timofey-Makhlay.API-TableView-Programmatic";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		F38346042194D4C6000E7E6A /* Release */ = {
+		F35156D9219B5555000D3099 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SAZ2DLKCVY;
-				INFOPLIST_FILE = "UItableView Programmatic/Info.plist";
+				INFOPLIST_FILE = "API-TableView-Programmatic/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Timofey-Makhlay.UItableView-Programmatic";
+				PRODUCT_BUNDLE_IDENTIFIER = "Timofey-Makhlay.API-TableView-Programmatic";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -325,25 +321,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F38345EB2194D4C4000E7E6A /* Build configuration list for PBXProject "UItableView Programmatic" */ = {
+		F35156C0219B5554000D3099 /* Build configuration list for PBXProject "API-TableView-Programmatic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F38346002194D4C6000E7E6A /* Debug */,
-				F38346012194D4C6000E7E6A /* Release */,
+				F35156D5219B5555000D3099 /* Debug */,
+				F35156D6219B5555000D3099 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F38346022194D4C6000E7E6A /* Build configuration list for PBXNativeTarget "UItableView Programmatic" */ = {
+		F35156D7219B5555000D3099 /* Build configuration list for PBXNativeTarget "API-TableView-Programmatic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F38346032194D4C6000E7E6A /* Debug */,
-				F38346042194D4C6000E7E6A /* Release */,
+				F35156D8219B5555000D3099 /* Debug */,
+				F35156D9219B5555000D3099 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F38345E82194D4C4000E7E6A /* Project object */;
+	rootObject = F35156BD219B5554000D3099 /* Project object */;
 }
