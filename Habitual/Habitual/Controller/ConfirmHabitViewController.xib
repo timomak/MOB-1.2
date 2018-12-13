@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ConfirmHabitViewController" customModule="Habitual" customModuleProvider="target">
+            <connections>
+                <outlet property="habitImageView" destination="gim-bm-QIP" id="21P-kf-NGJ"/>
+                <outlet property="habitNameInputField" destination="tEf-7m-kOM" id="Tdj-Gi-Q3g"/>
+                <outlet property="view" destination="cHx-J3-DxU" id="zJX-Pm-du0"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="cHx-J3-DxU">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gim-bm-QIP">
+                    <rect key="frame" x="60" y="70" width="255" height="255"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="255" id="FmA-Wc-GSJ"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="93q-IY-a8b">
+                    <rect key="frame" x="20" y="597" width="339" height="50"/>
+                    <color key="backgroundColor" red="0.37827259299999999" green="0.70634227989999998" blue="0.67451924090000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="pEA-8g-Gti"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
+                    <state key="normal" title="Create Habit!">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="createHabitButtonPressed:" destination="-1" eventType="touchUpInside" id="A1y-4l-w7T"/>
+                    </connections>
+                </button>
+                <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="fillProportionally" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="TMU-x0-fQX">
+                    <rect key="frame" x="88" y="378" width="198.5" height="86.5"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name of the New Habit" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oA1-fq-EaC">
+                            <rect key="frame" x="0.0" y="0.0" width="198.5" height="21.5"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name of Habit" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tEf-7m-kOM">
+                            <rect key="frame" x="0.0" y="56.5" width="198.5" height="30"/>
+                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="93q-IY-a8b" secondAttribute="bottom" constant="20" symbolic="YES" id="8AY-L1-RIc"/>
+                <constraint firstItem="gim-bm-QIP" firstAttribute="centerX" secondItem="TMU-x0-fQX" secondAttribute="centerX" id="JAw-b8-zG1"/>
+                <constraint firstItem="93q-IY-a8b" firstAttribute="leading" secondItem="KYE-D2-fCu" secondAttribute="leading" constant="20" id="R8c-u2-Jkd"/>
+                <constraint firstItem="93q-IY-a8b" firstAttribute="trailing" secondItem="cHx-J3-DxU" secondAttribute="trailingMargin" id="Uyc-g4-Dr4"/>
+                <constraint firstItem="gim-bm-QIP" firstAttribute="top" secondItem="KYE-D2-fCu" secondAttribute="top" constant="50" id="rSg-qO-eaB"/>
+                <constraint firstItem="gim-bm-QIP" firstAttribute="centerX" secondItem="cHx-J3-DxU" secondAttribute="centerX" id="xoH-Ch-2TW"/>
+                <constraint firstItem="TMU-x0-fQX" firstAttribute="top" secondItem="gim-bm-QIP" secondAttribute="bottom" constant="53" id="yOZ-C2-0S4"/>
+                <constraint firstItem="gim-bm-QIP" firstAttribute="leading" secondItem="KYE-D2-fCu" secondAttribute="leading" constant="60" id="yY4-rm-yc3"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="KYE-D2-fCu"/>
+            <point key="canvasLocation" x="39.200000000000003" y="45.42728635682159"/>
+        </view>
+    </objects>
+</document>
